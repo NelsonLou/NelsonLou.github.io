@@ -19,7 +19,6 @@
 			<!-- showTitle:是否现实标题 -->
 			<!-- title:标题 -->
     		<text wx:if='{{showTitle}}' class='title'>{{title}}</text>
-    
   			<image src="../../static/icon/common_arrow_left.png" class="arrowLeft" wx:if='{{showBackBtn&&iconColor=="black"}}' bindtap='handleBack'></image>
     		<image src="../../static/icon/common_arrowleft_w.png" class="arrowLeft" wx:if='{{showBackBtn&&iconColor=="white"}}' bindtap='handleBack'></image>
 	</view>
